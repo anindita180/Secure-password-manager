@@ -93,11 +93,14 @@ secure-password-manager/
 
 ## 📸 Screenshots
 
-[Add screenshots of your application here]
+![image](https://github.com/user-attachments/assets/fdab68f1-cf55-42ce-9036-e1eb5c39644d)
+![image](https://github.com/user-attachments/assets/b5a473f5-20c6-4f92-875e-0b0553b695c9)
+![image](https://github.com/user-attachments/assets/779ce37e-8184-412e-bf22-cbc64a6e7466)
+
 
 ## 🙋 Author
 
-[Your Name]
+[Anindita Das Badhan]
 - GitHub: [anindita180]
 - Email: [aninditadas2704@gmail.com]
 
