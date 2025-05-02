@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Password Manager</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <nav>
+        <h2>Welcome, {{ username }}</h2>
+        <a href="/logout" class="btn">Logout</a>
+    </nav>
+    <main>
+        <div class="dashboard-container">
+            <section class="add-password">
+                <h3>Store New Password</h3>
+                <form id="passwordForm">
+                    <div class="form-group">
+                        <label for="service">Service Name</label>
+                        <input type="text" id="service" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Username/Email</label>
+                        <input type="text" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" required>
+                    </div>
+                    <button type="submit" class="btn">Save Password</button>
+                </form>
+            </section>
+            
+            <section class="password-list">
+                <h3>Saved Passwords</h3>
+                <div id="passwordList" class="password-grid"></div>
+            </section>
+        </div>
+    </main>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
